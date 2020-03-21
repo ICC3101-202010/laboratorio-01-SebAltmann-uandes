@@ -6,8 +6,9 @@ namespace Laboratorio1
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Hello, World!");
+            Persona p1 = new Persona("Bob", "Kunga");
+
+            Console.WriteLine(p1.Lanzar());
         }
     }
 }
